@@ -49,3 +49,9 @@ instant: on
 # ~ and null Both are Same
 sweetner: null
 alternative_milk: ~ 
+
+# TimeStamp
+# Support Date And Time In Line
+# Perfer Doc for TimeStamp
+morning_brew: 2025-01-15
+local_time: 2025-01-15 08:30:01
