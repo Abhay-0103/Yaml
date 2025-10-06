@@ -1,4 +1,4 @@
-chai_type: masala_chai  #Inling comment
+chai_type: masala_chai  # Inling comment
 temperature: hot
 servings: 2
 brewing_time: 5
@@ -14,8 +14,19 @@ chai_recipe_two:
   milk: whole_milk
 
 
-#String
+# String
 chai_name: masala_chai
 description: "Chai with cardamom, ginger"
 tagline: ' The best chai i ever drinked'
 
+# Multing Line String
+# Always Using 2 space called indedntentions
+brewing_instruction: |
+  boil water
+  add tea leaves
+  add milk
+
+  brewing_instruction_two: |
+  boil water
+  add tea leaves
+  add milk
