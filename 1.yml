@@ -86,3 +86,15 @@ chai_categories:
 
 
 # Map , Key , Dictionary
+masala_chai:
+  ingredients:
+    tea: black_tea
+    liquid:
+      water: 200ml
+      milk: 100ml
+    spices:
+      ginger: 1_inch
+      cinnamom: 1_stick
+  preparation:
+    method: simmer
+    duration: 5_minutes
