@@ -1,0 +1,18 @@
+chai_type: masala_chai  #Inling comment
+temperature: hot
+servings: 2
+brewing_time: 5
+
+
+# indentention
+chai_recipe: #always use space no tab 2 space
+  base: black_tea
+  milk: whole_milk
+
+chai_recipe_two:
+  base: black_tea
+  milk: whole_milk
+
+
+#String
+
