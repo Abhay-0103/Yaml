@@ -71,3 +71,18 @@ spices:
 # spices: [cardamom, ginger, cloves]
 
 steeping_timmes: [3, 3, 1]
+
+# Nested List
+chai_categories:
+  - name: Traditional
+    Varities:
+      - Masala_Chai
+      - Ginger Chai
+      - Cardmom Chai
+  - name: Modern
+    Varities:
+      - Vanilla Chai
+      - Chocolate Chai
+
+
+# Map , Key , Dictionary
