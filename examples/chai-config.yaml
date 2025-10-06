@@ -1,0 +1,46 @@
+# Config.yaml
+chai_shop:
+  name: "Chai Haven"
+  location:
+    address: "123 Tea Street"
+    city: Mumbai
+    country: India
+    coordinates:
+      lat: 19.0760
+      lng: 72.8777
+
+operating_hours:
+  monday_to_friday:
+    open: "07:00"
+    close: "22:00"
+  weekend:
+    open: "08:00"
+    close: "23:00"
+
+menu:
+  - id: 1
+    name: "Classic Masala Chai"
+    price: 30
+    ingredients: [black_tea, milk, sugar, cardamom, ginger]
+    available: true
+
+  - id: 2
+    name: "Adrak Chai"
+    price: 35
+    ingredients: [black_tea, milk, sugar, ginger]
+    available: true
+
+  - id: 3
+    name: "Elaich Chai"
+    price: 30
+    ingredients: [black_tea, milk, sugar, Elaich]
+    available: true
+
+staff:
+  - name: "Ravi Kumar"
+    role: manager
+    experience_years: 10
+
+  - name: "Priya Sharma"
+    role: barista
+    experience_years: 3
