@@ -98,3 +98,21 @@ masala_chai:
   preparation:
     method: simmer
     duration: 5_minutes
+
+
+# List Of Dictionary
+chai_menu: # List 1
+  - name: masala_chai
+    price: 30
+    size: regular
+  - name: Ginger_chai # List 2
+    price: 30
+    size: regular
+  
+
+default_chai_base: &default_base
+  tea: black_tea
+  water: 200ml
+  brewing_time: 5
+
+
