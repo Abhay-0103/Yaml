@@ -127,3 +127,15 @@ morning_chai:
 evening_chai:
   <<: *default_base
   milk: 200ml
+
+
+# Exiceted DataType
+zip_code: !!str 12345
+count: !!int "123"
+
+
+#Set's
+unique_spices: !!set
+  ? cardamom
+  ? ginger
+  ? cloves
