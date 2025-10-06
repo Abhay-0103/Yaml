@@ -110,9 +110,20 @@ chai_menu: # List 1
     size: regular
   
 
+# Requriment
 default_chai_base: &default_base
   tea: black_tea
   water: 200ml
   brewing_time: 5
 
 
+# Ram And Requriement / Ancor and Alis
+morning_chai:
+  <<: *default_base
+  milk: 100ml
+
+
+# Can Created any Number Of Requriment as much Time as we want
+evening_chai:
+  <<: *default_base
+  milk: 200ml
