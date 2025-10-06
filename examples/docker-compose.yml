@@ -1,0 +1,31 @@
+# docker-compose.yml
+version: '3.8'
+
+# Frontend service
+services:
+  chai-frontend:
+    image: chai-shop/frontend:latest
+    build:
+      context: ./frontend
+      dockerfile: dockerfile
+    ports:
+      - "3000:3000"
+    environment:
+      - REACT_APP_API_URL=http://localhost:8080
+      - NODE_ENV=production
+    depends_on:
+      - chai-backend
+    networks:
+      - chai-network
+
+# Backend API service
+  chai-backend:
+    image: chai-shop/backend:latest
+    build:
+      context: ./backend
+      dockerfile: Dockerfile
+    ports:
+      - "8080:8080"
+    environment:
+      - DATABASE_URL=postgresql://
+      
