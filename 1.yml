@@ -44,3 +44,8 @@ is_hot: true
 add_sugar: yes
 add_salt: no
 instant: on
+
+# Null Value's
+# ~ and null Both are Same
+sweetner: null
+alternative_milk: ~ 
