@@ -33,3 +33,7 @@ brewing_instruction_two: >
   add tea leaves
   add milk
 
+# Number
+cups_per_day: 3
+cups_per_day_two: 3.5
+
