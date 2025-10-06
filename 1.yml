@@ -37,3 +37,10 @@ brewing_instruction_two: >
 cups_per_day: 3
 cups_per_day_two: 3.5
 
+# Boolean
+# can Be Written T/F, Y/N, On/Off
+# Always Perfer T/F
+is_hot: true
+add_sugar: yes
+add_salt: no
+instant: on
